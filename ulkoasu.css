@@ -7,7 +7,7 @@ a{
   color:black;
 }
 a:hover{
-color:blue; 
+color:antiquewhite; 
 }
 a:active{
 color:brown;}
@@ -15,10 +15,13 @@ color:brown;}
 background-color:black;
 width: 30%;
 margin:auto;
-text-align:center;  
+text-align:center; 
+font-size: 40px; 
 }
 .otsikko{
   background-color: violet;
 }
 .alaotsikko{
   background-color: }
+  
+    
