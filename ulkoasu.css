@@ -35,7 +35,8 @@ font-size: 40px;
   text-align: left;
   width: 70%; 
   margin: auto;
- 
+  padding:60px ;
+  font-size: 20px
 }
 .projektiotsikko{
   margin-bottom:40px;
@@ -44,10 +45,19 @@ font-size: 40px;
 }
 .laatikko{
   width: 100%;
+  margin-bottom: 20px;
+  
 }
-
-
-
-
+#projektinappula{
+  background-color: black;
+  color:white;
+  text-align: center;
+  font-size: 12px;
+  height: 20px;
+  
+}
+.tekstit{
+  font-size: 10px
+{
   
 
