@@ -1,15 +1,16 @@
 function laskutehtava(ekaArvo,tokaArvo){
     return ekaArvo +tokaArvo;
 }
-function pvmFin(2021.8.18){
-return pvm="18.8.2021" 
+function pvmFin(vuosi,kk,pv){
+    
 }
+
 console.log("Täällä ollaan!");
 
-let ika = 41; //numerot kirjoitetaan ilamn lainaismerkkejä
+let ika = 41; //numerot kirjoitetaan ilman lainauismerkkejä
 ika = ika +1; //integer (int)
 
-let ikakirjaimina = 41; //string (srt)
+let ikakirjaimina = 41; //string (str)
 ikakirjaimina = ikakirjaimina + 1; 
 
 console.log(ikakirjaimina);
@@ -45,7 +46,14 @@ else{
 console.log(laskutehtava(123,123));
 
 let pvm= "2021/08/18";
-pvmFin (pvm.split("/")[0]...,[1]...,[2]);
+console.log(pvmFin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
+
+
+
+
+ 
+
+
 
 
 /*
