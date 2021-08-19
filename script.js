@@ -2,16 +2,28 @@ function laskutehtava(ekaArvo,tokaArvo){
     return ekaArvo +tokaArvo;
 }
 function pvmFin(vuosi,kk,pv){
-    
+  if(kk==03 || kk==04 || kk==05){
+  return "kevät: "+ +pv+"."+kk+"."+vuosi;   
+}
+  else if(kk==06 || kk==07 || kk==08){
+  return "kesä: " + +pv+"."+kk+"."+vuosi;
+}
+  else if (kk==09 || kk==10 || kk==11){
+  return "syksy:"+ +pv+"."+kk+"."+vuosi;
+}
+  else{
+  return "talvi:"+ +pv+"."+kk+"."+vuosi; ;
+}
+  return "Päivämäärä oikeassa järjestyksessä on: "+pv+"."+kk+"."+vuosi;   
 }
 
 console.log("Täällä ollaan!");
 
 let ika = 41; //numerot kirjoitetaan ilman lainauismerkkejä
-ika = ika +1; //integer (int)
+ika = ika +0; //integer (int)
 
 let ikakirjaimina = 41; //string (str)
-ikakirjaimina = ikakirjaimina + 1; 
+ikakirjaimina = ikakirjaimina + 0; 
 
 console.log(ikakirjaimina);
 
@@ -45,8 +57,12 @@ else{
 
 console.log(laskutehtava(123,123));
 
-let pvm= "2021/08/18";
-console.log(pvmFin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
+let pvm= "2021/09/18";
+
+for(let i=0; i<15; i++){
+console.log(i+" "+pvmFin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
+}
+
 
 
 
