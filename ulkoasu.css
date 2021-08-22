@@ -7,16 +7,17 @@ a{
   color:none;
 }
 a:hover{
-color:antiquewhite; 
+  color:antiquewhite; 
 }
 a:active{
-color:brown;}
+  color:brown;
+}
 #etusivunnappula{
-background-color:black;
-width: 30%;
-margin:auto;
-text-align:center; 
-font-size: 40px; 
+  background-color:black;
+  width: 30%;
+  margin:auto;
+  text-align:center; 
+  font-size: 40px; 
 }
 .otsikko{
   background-color: violet;
@@ -33,32 +34,65 @@ font-size: 40px;
 #lisaamerkinta{
   background-color:violet;
   text-align: left;
-  width: 70%; 
+  width: 60%; 
   margin: auto;
-  padding:60px ;
+  padding:10px;
   font-size: 20px
 }
 .projektiotsikko{
-  margin-bottom:40px;
   background-color: violet;
-  padding: 20px;
+  text-align: center;
+  padding-top: 10px;
 }
 .laatikko{
   width: 100%;
-  margin-bottom: 20px;
-  
+  margin-bottom: 20px;  
 }
 #projektinappula{
   background-color: black;
   color:white;
   text-align: center;
+  font-size: 14px;
+  height: 30px;
+ 
+}
+.laatikonohje{
   font-size: 12px;
-  height: 20px;
+  color:green;
   
 }
-.tekstit{
-  font-size: 10px
+.merkkiboksi{
+  background-color: blue;
+  margin-bottom: 20px; 
+
+}
+#uusinappula{
+  background-color:blue;
+  color:antiquewhite;
+  margin: auto;
+  text-align:left;
+  width: 60%
+  
 }
 
+#nappulanappula{
+  background-color: black;
+  color:white;
+  text-align: center;
+  font-size: 14px;
+  margin: auto;
+  margin-top: 10px;
+  height: 30px;
+  width: 50%
+}
+.sisalto{
+  color: green;
+  list-style-type: none;
+  background-color: whitesmoke;
+  text-align: left; 
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
+}
   
 
