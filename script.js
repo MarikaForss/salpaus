@@ -1,6 +1,5 @@
 console.log("Täällä ollaan!");
 
-
 let ika=41;//numerot kirjoitetaan ilman lainausmerkkejä
 ika=ika+1;//integer (int) 
 
@@ -37,8 +36,24 @@ let pvm= "2021/01/18";
 //console.log(document.querySelector('#kenttä').type);
 //console.log(document.querySelector('lisaanappi').value);
 
-document.querySelector('projektinappula').innerHTML=  addEventListener('click', e =>{alert("Täytä kaikki kentät"); 
+document.querySelector('.lisaanappi').addEventListener ('click', e =>{
+  e.preventDefault();
+
+document.querySelector('.ilmoitus').innerHTML = document.querySelector('#kentta').value;
+
+setTimeout(()=> document.querySelector('.ilmoitus').innerHTML='',3000);
+
 });
+
+document.querySelector('.merkinta').addEventListener('click', e =>{
+  e.preventDefault();
+  console.log("nappi toimii");
+
+
+if(document.querySelector('#teht_a').checked){document.querySelector('.boksit').children[0].innerHTML = '<li class="sisalto"><input type="checkbox" id="teht_a" checked> Tehtävä A on tehty!</li>';
+}
+else{document.querySelector}
+
 
 
 
