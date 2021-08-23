@@ -85,14 +85,21 @@ a:active{
   height: 30px;
   width: 50%
 }
-.sisalto{
-  color: green;
+.projektinsisalto{
+  color:black;
   list-style-type: none;
-  background-color: whitesmoke;
+  background-color: white;
   text-align: left; 
   margin: auto;
   margin-top: 10px;
   width: 50%;
+}
+.sisalto{
+ list-style: none;
+}
+.ilmoitus{
+  color: whitesmoke;
+  text-align: center;
 }
 
 
