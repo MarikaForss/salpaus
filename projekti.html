@@ -9,28 +9,33 @@
   <div>
   <div class="projektiotsikko">
   <h2>Tieto-ja viestintätekniikan perustehtävä<h2></div>
-    <div class="ilmoitus"> </div>
+   <div>
+   <form di= "tietoja" 
     <div id="lisaamerkinta">
     <b>Lisää merkintä<br></b><br>
+    <div class="ilmoitus"><input type="text"></div>
     <div class= "laatikonohje"><b> Nimi</b> </div>
     <input type="text" class="laatikko"><br>
     <div class="laatikonohje"><b>Tieto</b> </div> 
     <input type="text" class="laatikko">
- 
     <div id="projektinappula"> 
       Lisää tieto</div> <br>
+   </form>
     </div>
+    
     <div id="uusinappula"><b>Suoritettavat</b></div>
     
-    <div>
-      <li class="projektinsisalto"><input type="checkbox" id="teht_a"> HTML</li> </div>
-    <div>
-      <li class="projektinsisalto"><input type="checkbox"  id="teht_b"> CSS </li> </div>
-    <div>
-      <li class="projektinsisalto"><input type="checkbox" id="teht_a">JavaScript </li></div>
-    <div>
-      <li class="projektinsisalto"><input type="checkbox" id="teht_b">CI/CD</li>
-    </div>
+    <ul class= "projektivalitsin">
+      <div>
+      <li class="projektinsisalto"><input type="checkbox" id="html"> HTML</li> </div>
+      <div>
+      <li class="projektinsisalto"><input type="checkbox" id="css"> CSS </li> </div>
+      <div>
+      <li class="projektinsisalto"><input type="checkbox" id="javascript">JavaScript </li></div>
+      <div>
+      <li class="projektinsisalto"><input type="checkbox" id="cicd">CI/CD</li>
+      </div>
+      </ul>
      <div id="nappulanappula"> Merkkaa </div>
 
 <script src= "JavaScripti.js"></script>       
