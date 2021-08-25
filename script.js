@@ -20,15 +20,14 @@ document.querySelector('.merkinta').addEventListener('click', e =>{
 if(document.querySelector('#teht_a').checked){document.querySelector('.boksit').children[0].innerHTML = '<li class="sisalto"><input type="checkbox" id="teht_a"checked>Tehtävä A on tehty!</li>';
 }
 else{
-  document.querySelector('.boksit').children[0].innerHTML = '<li class="sisalto"><input type="checkbox" id=teht_a">Tehtävä A</li>';
+  document.querySelector('.boksit').children[0].innerHTML = '<li class="sisalto"><input type="checkbox" id=teht_a">Tehtävä A</li>';  
 }
 if
-(document.querySelector('#teht_b').checked){document.querySelector('.boksit').children[1].innerHTML = '<li class="sisalto"><input type="checkbox" id="teht_b" checked>Tehtävä B on tehty!</li>';
+(document.querySelector('#teht_b').checked){document.querySelector('.boksit').children[1].innerHTML = '<li class="sisalto"><input type="checkbox" id="teht_b"checked>Tehtävä B on tehty!</li>';
 }
 else{
- document.querySelector('.boksit').children[1].innerHTML = '<li class="sisalto"><input type="checkbox" id=teht_b"> Tehtävä B</li>';
+ document.querySelector('.boksit').children[1].innerHTML = '<li class="sisalto"><input type="checkbox" id=teht_b">Tehtävä B</li>';
 }
-
 });
 
 
