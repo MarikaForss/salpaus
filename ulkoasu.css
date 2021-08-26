@@ -5,6 +5,7 @@ body{
 a{
   text-decoration:none;
   color:none;
+  
 }
 a:hover{
   color:antiquewhite; 
@@ -51,7 +52,7 @@ a:active{
 }
 #projektinappula{
   background-color: black;
-  color:white;
+  color: white;
   text-align: center;
   font-size: 14px;
   height: 30px;
@@ -76,7 +77,6 @@ a:active{
   text-align:left;
   width: 100%
  
-  
 }
 
 #nappulanappula{
@@ -101,17 +101,20 @@ a:active{
 }
 .sisalto{
  list-style: none;
+ 
 }
 .ilmoitus{
   background-color:red;
   color: whitesmoke;
   width:30%; 
+  
 
 }
 .projektivalitsin{
-  list-style-type: none;
-  color: whitesmoke;
-  
+  color: black;
 }
+
+
+
 
 
