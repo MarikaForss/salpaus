@@ -58,9 +58,9 @@ a:active{
   height: 30px;
  
 }
-.laatikonohje{
-  font-size: 12px;
-  color:green;
+.ohje{
+  font-size: 14px;
+  color:black;
  
   
 }
@@ -106,15 +106,15 @@ a:active{
 .ilmoitus{
   background-color:red;
   color: whitesmoke;
-  width:30%; 
   
 
 }
 .projektivalitsin{
   color: black;
 }
+.kentta{
+  background-color:violet;
 
-
-
+}
 
 

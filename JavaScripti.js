@@ -3,9 +3,13 @@
 document.querySelector('#projektinappula').addEventListener ('click', e =>{
 e.preventDefault();
 
-document.querySelector('.ilmoitus').innerHTML ="Täytä kaikki kentät"
+document.querySelector('.kentta').innerHTML=
+document.querySelector('.ohje').value;
 
-setTimeout(()=> document.querySelector('.ilmoitus').innerHTML='',3000);
+//if(document.querySelector('.ohje').value== "")
+//document.querySelector('.ilmoitus').innerHTML = "Täytä kaikki kentät";
+
+//setTimeout(()=> document.querySelector('.ilmoitus').innerHTML='',3000);
 });
 
 document.querySelector('#nappulanappula').addEventListener('click', e =>{
@@ -31,13 +35,11 @@ if(document.querySelector('#cicd').checked){document.querySelector('.projektival
 else{
 document.querySelector('.projektivalitsin').children[3].innerHTML = '<li class="projektinsisalto"><input type="checkbox" id="cicd">CI/CD</li>';
 }
+
+
 });
+//if(document.querySelector('.laatikonohje'== '') document.querySelector('.ilmoitus').innerHTML= "Täytä kaikki kentät";
 
-document.querySelector('#projektinappula').addEventListener ('click', e =>{
-e.preventDefault();
-
-
-if(document.querySelector('.kentta').innerHTML= document.querySelector('.laatikonohje').value
 
 
 
