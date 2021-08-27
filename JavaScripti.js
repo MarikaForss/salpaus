@@ -3,14 +3,18 @@
 document.querySelector('#projektinappula').addEventListener ('click', e =>{
 e.preventDefault();
 
-document.querySelector('.kentta').innerHTML=
-document.querySelector('.ohje').value;
+//document.querySelector('.kentta').innerHTML = document.querySelector('#nimi').value+ " "+ document.querySelector('#tieto').value;
 
-//if(document.querySelector('.ohje').value== "")
-//document.querySelector('.ilmoitus').innerHTML = "Täytä kaikki kentät";
 
-//setTimeout(()=> document.querySelector('.ilmoitus').innerHTML='',3000);
+if(document.querySelector('#nimi').value== "" || document.querySelector('#tieto').value==""){ 
+  document.querySelector('.ilmoitus').innerHTML= "Täytä kaikki kentät";
+  setTimeout(()=> document.querySelector('.ilmoitus').innerHTML='',3000);
+}
+else{
+ document.querySelector('.kentta').innerHTML = document.querySelector('#nimi').value+ " "+ document.querySelector('#tieto').value;
+}
 });
+
 
 document.querySelector('#nappulanappula').addEventListener('click', e =>{
  e.preventDefault();
@@ -38,7 +42,7 @@ document.querySelector('.projektivalitsin').children[3].innerHTML = '<li class="
 
 
 });
-//if(document.querySelector('.laatikonohje'== '') document.querySelector('.ilmoitus').innerHTML= "Täytä kaikki kentät";
+
 
 
 
